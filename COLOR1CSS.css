@@ -1,0 +1,34 @@
+h1>a{
+	color: #0094aa;
+	background-color: transparent;
+
+	
+}
+
+.flex.flex-center.menu-navegacion li>a{
+	color: white;
+	text-decoration: none;
+}
+
+nav.flex.flex-center.menu-navegacion li a:hover{
+	background-color: #0094aa;
+	/*color: #0094aa;*/
+}
+
+section.producto>div.flex.flex-vertical.flex-center{
+    background-color: white;
+}
+
+main.flex.between h2{
+	background-image: linear-gradient(currentColor, CurrentColor);
+	background-position: 0% 100%;
+	background-repeat: no-repeat;
+	background-size: 0% 1.5px;
+	transition: background-size .3s; 
+}
+
+main.flex.between h2:hover, main.flex.between h2:focus{
+	background-size: 100% 1.5px;
+}
+
+

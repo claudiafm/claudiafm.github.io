@@ -1,0 +1,90 @@
+.flex.flex-center.menu-navegacion li>a{
+    font-family:  'Open Sans',Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    /*display: block;*/
+}
+
+h1>a{
+	font-family:'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 0.64cm;
+	text-transform: uppercase;
+}
+
+nav.menu-navegacion>ul{    
+    list-style:none;
+	margin:0;
+	width: 500px;
+	display:-webkit-box;
+	display:-moz-box;
+	display:-ms-flexbox;
+	display:-webkit-flex;
+	display: flex;
+	
+	height: 50px;
+	flex:1;
+	flex-wrap: wrap;
+	}
+
+.menu-navegacion a, .logo{
+	text-decoration: none;
+	padding-left: 0.7em;
+	padding-right: 0.7em;
+	text-transform: uppercase;
+	
+}
+h2{
+	font-family: 'Open Sans bold', Helvetica, Arial, sans-serif;
+	font-weight: 800;
+	font-size: 0.49cm;
+	text-transform: uppercase;
+	text-align: center;
+	width: 150px;
+}
+h3{
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-size: 0.42cm;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+h2,h3{
+	color:#3e4b58;
+}
+
+p,a{
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size: 0.42cm;
+	font-weight: 400;
+	font-style: normal;
+	color: #171a1f;	
+
+}
+
+p.white, h3.white{
+	color:white;
+}
+a.buttonWhite span{
+	border: 1px solid black;
+	color:black;
+	
+}
+a.buttonDark span{
+	background-color: black;
+	color: white;
+}
+
+a{
+	text-decoration: none;
+	font-size: 0.29cm;
+}
+
+h4.text-redessociales{
+	font-weight: 400;
+	color:white;
+	text-align: end;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size: 0.5em;
+	line-height: 100px;
+}
